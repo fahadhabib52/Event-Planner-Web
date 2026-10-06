@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us | Elite Events</title>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="preloader"><div class="loader-ring"></div><p>Elite Events</p></div>
+
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="logo"><span class="logo-icon"><i class="fas fa-gem"></i></span><span>Elite<strong>Events</strong></span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li><li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <a href="https://wa.me/923458297688" target="_blank" class="cta-btn"><i class="fab fa-whatsapp"></i> Book Now</a>
+    <div class="hamburger"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+
+<section class="page-header" style="background-image:url('https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=1920')">
+  <div class="page-header-overlay"></div>
+  <div class="container">
+    <h1 data-aos="fade-up">Get In <span class="gradient-text">Touch</span></h1>
+    <p data-aos="fade-up" data-aos-delay="200"><a href="index.html">Home</a> / Contact</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="contact-cards">
+      <div class="contact-card" data-aos="fade-up" data-aos-delay="100">
+        <i class="fab fa-whatsapp"></i>
+        <h3>WhatsApp</h3>
+        <p>0345 8297688</p>
+        <a href="https://wa.me/923458297688" target="_blank" class="btn btn-primary">Chat Now</a>
+      </div>
+      <div class="contact-card" data-aos="fade-up" data-aos-delay="200">
+        <i class="fas fa-envelope"></i>
+        <h3>Email</h3>
+        <p>fahadhabib246810@gmail.com</p>
+        <a href="mailto:fahadhabib246810@gmail.com" class="btn btn-primary">Send Email</a>
+      </div>
+      <div class="contact-card" data-aos="fade-up" data-aos-delay="300">
+        <i class="fas fa-phone"></i>
+        <h3>Call Us</h3>
+        <p>0345 8297688</p>
+        <a href="tel:+923458297688" class="btn btn-primary">Call Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-light">
+  <div class="container grid-2">
+    <div data-aos="fade-right">
+      <span class="section-tag">Send Message</span>
+      <h2>Let's Plan Your <span class="gradient-text">Dream Event</span></h2>
+      <p>Fill out the form and we'll get back to you within 24 hours. You can also reach us directly on WhatsApp for instant response.</p>
+      <form id="contactForm" class="booking-form" style="margin-top:25px;">
+        <div class="form-row">
+          <div class="form-group"><label>Name *</label><input type="text" id="cName" required placeholder="Your name"></div>
+          <div class="form-group"><label>Phone *</label><input type="tel" id="cPhone" required placeholder="03XX-XXXXXXX"></div>
+        </div>
+        <div class="form-group"><label>Email *</label><input type="email" id="cEmail" required placeholder="your@email.com"></div>
+        <div class="form-group"><label>Event Type</label>
+          <select id="cEvent">
+            <option>Wedding Event</option><option>Birthday Party</option><option>Corporate Event</option>
+            <option>Engagement Ceremony</option><option>Musical Program</option><option>Baby Shower</option>
+          </select>
+        </div>
+        <div class="form-group"><label>Message *</label><textarea id="cMsg" rows="4" required placeholder="Tell us about your event..."></textarea></div>
+        <div class="booking-actions">
+          <button type="button" class="btn btn-whatsapp" id="contactWhatsApp"><i class="fab fa-whatsapp"></i> Send via WhatsApp</button>
+          <button type="button" class="btn btn-email" id="contactEmail"><i class="fas fa-envelope"></i> Send via Email</button>
+        </div>
+      </form>
+    </div>
+    <div data-aos="fade-left">
+      <div class="contact-info-box">
+        <h3>Contact Information</h3>
+        <ul class="contact-info-list">
+          <li><i class="fas fa-map-marker-alt"></i><div><h4>Office Address</h4><p>Main Boulevard, Gulshan-e-Iqbal, Karachi, Pakistan</p></div></li>
+          <li><i class="fas fa-phone"></i><div><h4>Phone</h4><p>0345 8297688</p></div></li>
+          <li><i class="fas fa-envelope"></i><div><h4>Email</h4><p>fahadhabib246810@gmail.com</p></div></li>
+          <li><i class="fas fa-clock"></i><div><h4>Working Hours</h4><p>Mon - Sat: 10:00 AM - 8:00 PM<br>Sunday: By Appointment</p></div></li>
+        </ul>
+        <div class="map-wrap">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.0530086876846!2d67.0822!3d24.9206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDU1JzE0LjIiTiA2N8KwMDUnMDEuOSJF!5e0!3m2!1sen!2s!4v1234567890" width="100%" height="250" style="border:0;border-radius:15px" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <span class="section-tag">FAQ</span>
+      <h2>Frequently Asked <span class="gradient-text">Questions</span></h2>
+    </div>
+    <div class="faq-wrap">
+      <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+        <div class="faq-q"><h3>Kitne din pehle booking karni chahiye?</h3><i class="fas fa-plus"></i></div>
+        <div class="faq-a"><p>Weddings ke liye 2-3 mahine pehle, birthdays ke liye 2-3 hafte pehle, aur corporate events ke liye kam az kam 1 mahina pehle booking karwana behtar hai.</p></div>
+      </div>
+      <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+        <div class="faq-q"><h3>Kya aap poore Pakistan me service dete hain?</h3><i class="fas fa-plus"></i></div>
+        <div class="faq-a"><p>Ji haan, hum Karachi, Lahore, Islamabad, Rawalpindi, Faisalabad, Multan aur Peshawar me services provide karte hain. Baaki cities ke liye bhi travel arrangements available hain.</p></div>
+      </div>
+      <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+        <div class="faq-q"><h3>Advance payment kitni hoti hai?</h3><i class="fas fa-plus"></i></div>
+        <div class="faq-a"><p>Booking confirm karne ke liye 30% advance aur event se 3 din pehle 70% baqi amount. Hum installment option bhi provide karte hain long-term bookings ke liye.</p></div>
+      </div>
+      <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+        <div class="faq-q"><h3>Kya customization possible hai?</h3><i class="fas fa-plus"></i></div>
+        <div class="faq-a"><p>Bilkul! Har event 100% customizable hai. Apni theme, colors, guest count aur budget ke mutabiq hum package tailor karte hain.</p></div>
+      </div>
+      <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+        <div class="faq-q"><h3>Emergency / last minute booking possible hai?</h3><i class="fas fa-plus"></i></div>
+        <div class="faq-a"><p>Ji haan, hum last-minute events bhi handle karte hain depending on availability. WhatsApp pe immediately rabta karein.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-banner">
+  <div class="cta-overlay"></div>
+  <div class="container" data-aos="zoom-in">
+    <h2>Let's Create Something <span class="gradient-text">Unforgettable</span></h2>
+    <p>Contact us today for a free consultation.</p>
+    <div class="hero-btns">
+      <a href="https://wa.me/923458297688" target="_blank" class="btn btn-primary"><i class="fab fa-whatsapp"></i> WhatsApp Us</a>
+      <a href="mailto:fahadhabib246810@gmail.com" class="btn btn-outline"><i class="fas fa-envelope"></i> Email Us</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <a href="index.html" class="logo"><span class="logo-icon"><i class="fas fa-gem"></i></span><span>Elite<strong>Events</strong></span></a>
+      <p>Pakistan's premier event planning company crafting unforgettable experiences since 2010.</p>
+      <div class="socials"><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-tiktok"></i></a><a href="https://wa.me/923458297688"><i class="fab fa-whatsapp"></i></a></div>
+    </div>
+    <div><h4>Quick Links</h4><ul>
+      <li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="services.html">Services</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="contact.html">Contact</a></li>
+    </ul></div>
+    <div><h4>Our Services</h4><ul>
+      <li><a href="services.html#wedding">Wedding Events</a></li><li><a href="services.html#birthday">Birthday Parties</a></li><li><a href="services.html#corporate">Corporate Events</a></li><li><a href="services.html#engagement">Engagement</a></li><li><a href="services.html#musical">Musical Programs</a></li>
+    </ul></div>
+    <div><h4>Contact Info</h4><ul class="contact-info">
+      <li><i class="fas fa-phone"></i> 0345 8297688</li><li><i class="fas fa-envelope"></i> fahadhabib246810@gmail.com</li><li><i class="fas fa-map-marker-alt"></i> Karachi, Pakistan</li><li><i class="fas fa-clock"></i> Mon-Sat: 10AM - 8PM</li>
+    </ul></div>
+  </div>
+  <div class="footer-bottom"><p>© 2025 Elite Events. All Rights Reserved.</p></div>
+</footer>
+
+<a href="https://wa.me/923458297688" target="_blank" class="float-wa"><i class="fab fa-whatsapp"></i></a>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
